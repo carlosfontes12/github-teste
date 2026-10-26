@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/formulario.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Contacto</title>
+</head>
+
+
+<body>
+
+<fieldset>
+    <legend>Formulário de Contacto</legend>
+
+    <div class="Formulario">
+        <form action="" method="post">
+        <label for="Nome:">Nome:</label>
+        <input type="text" id="Nome" name="Nome" required placeholder="Insira o seu nome aqui">
+        
+        
+        <br>
+        <label for="Email:">Email:</label>
+        <input type="email" id="Email" name="Email">
+        <br>
+        <br>
+               <label for="Genero">Género:</label>
+        <br>
+        <input type="radio" id="Genero" name="Genero" value="Masculino">
+        <span>
+            Masculino
+            <br>
+        </span>
+        <input type="radio" id="Genero" name="Genero" value="Feminino">
+        <span>
+            Feminino
+            <br>
+        </span>
+        <br>
+            <label for="Data">Data atual:</label>
+        <input type="date" id="Data" name="Data">
+        <br>
+        <br>
+        <br><br>
+        <label for="Turma">Turma:</label>
+        <select id="Turma" name="Turma">
+            <option value="A">Web Developer & Mobile</option>
+            <option value="B">Outra</option>
+        </select>
+        <br>
+        <label for="Mensagem">Mensagem:</label>
+        <textarea id="Mensagem" name="Mensagem" rows="4" cols="50" ></textarea>
+        <br>
+         <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">  
+        <br>
+    </form>
+
+</fieldset>
+
+</body>
+</html>

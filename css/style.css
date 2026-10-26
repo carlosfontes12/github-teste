@@ -1,0 +1,16 @@
+.titulo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #db8503;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.hr2 {
+        border: none;              /* Remove a borda padrão */
+        height: 5px;               /* Define a espessura */
+        background-color: #d4d3d3;    /* Cor da linha */
+        margin: 20px 0;            /* Espaçamento acima e abaixo */
+    }
+
+ 

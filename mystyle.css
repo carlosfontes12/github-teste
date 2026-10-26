@@ -1,0 +1,49 @@
+* {color:blueviolet;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+background-color: rgb(158, 158, 96);
+}
+
+
+h1 {
+    color: blue;
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    color: purple;
+}
+
+li {
+    
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: red;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: green;
+}
+
+p2 {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(255, 0, 200);
+}
+
+ .imagem-redonda {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+
